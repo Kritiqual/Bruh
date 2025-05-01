@@ -16,7 +16,10 @@ Office.onReady((info) => {
 
 export async function run() {
   return Word.run((context) => {
-    const paragraph = context.document.body.insertParagraph("Hello World", Word.InsertLocation.end);
+    const paragraph = context.document.body.insertParagraph(
+      "Hello from the other side",
+      Word.InsertLocation.end
+    );
     paragraph.font.color = "blue";
     return context.sync();
   });

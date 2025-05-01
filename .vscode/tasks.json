@@ -93,14 +93,7 @@
       "label": "Debug: Word Desktop",
       "type": "shell",
       "command": "npm",
-      "args": [
-        "run",
-        "start",
-        "--",
-        "desktop",
-        "--app",
-        "word"
-      ],
+      "args": ["run", "start", "--desktop"],
       "presentation": {
         "clear": true,
         "panel": "dedicated"
