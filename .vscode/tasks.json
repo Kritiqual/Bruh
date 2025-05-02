@@ -75,17 +75,14 @@
       "args": [
         "run",
         "start",
-        "--",
-        "desktop",
-        "--app",
-        "powerpoint"
+        "--desktop",
       ],
       "presentation": {
         "clear": true,
         "panel": "dedicated"
       },
       "problemMatcher": [],
-      "dependsOn": [                    
+      "dependsOn": [
         "Check And Install Deps"
       ]
     },
